@@ -1,0 +1,14 @@
+{
+  "name": "example-review-suite",
+  "version": "0.1.0",
+  "description": "Local development fixture combining a Skill and explicit project configuration.",
+  "components": [
+    { "type": "skill", "skill": "example-review" },
+    {
+      "type": "project-config",
+      "files": {
+        ".example-review/settings.json": "{\n  \"enabled\": true,\n  \"profile\": \"local-fixture\"\n}\n"
+      }
+    }
+  ]
+}
